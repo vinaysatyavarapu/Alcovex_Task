@@ -1,0 +1,111 @@
+/* App.css */
+.App {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.taskboards {
+  flex: 1;
+  /* background-color: #ddd; */
+justify-content: center;
+align-items: center;
+  
+}
+
+.project {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.center {
+  flex: 2;
+  padding: 0 20px;
+  /* background-color: aqua; */
+  /* height: 500px;
+  width: 500px; */
+}
+
+.project-tasks {
+  display: flex;
+  gap: 20px;
+}
+
+.task-column {
+  margin-left: 100px;
+  margin-top: 25px;
+  /* border: 1px solid #ddd; */
+  border: 1px solid brown;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px; /* Adjust the width as needed */
+  margin-left: 100px;
+}
+
+.task {
+  margin-bottom: 10px;
+}
+
+.add-btn {
+  cursor: pointer;
+  color: #007bff;
+}
+
+.add-btn:hover {
+  text-decoration: underline;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background:#0056b3;
+}
+.col1{
+  color: pink;
+  
+}
+.col2{
+  color: blue;
+
+}
+.col3{
+color: green;
+}
